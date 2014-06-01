@@ -1,6 +1,53 @@
 /* Your Website Styles */
+body {
+  background: url('../img/subtle_dots.png') repeat;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+}
 
+body, html {
+  height: 100%;
+}
 
+.container {
+  background: white;
+  box-shadow: 0px 5px 45px #e1e1e1;
+  height: 1500px;
+}
+
+.topbox li {
+  font-size: 28px;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+.topbox a {
+  text-decoration: none;
+  color: white;
+  margin-left: 4px;
+}
+
+.topbox a:hover {
+  color: #00a1e0;
+}
+
+nav {
+  margin-top: 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: #414042;
+  overflow: hidden;
+  padding-left: 0;
+  z-index: 9999;
+}
+
+#history {
+  margin-right: 35px;
+}
 
 /* Gallery Stying */
 .gallery .control-button {
@@ -16,24 +63,23 @@
 /*
 	Theme controls how everything looks in Gallery CSS.
 */
-.gallery {
-  position: relative;
-}
 .gallery .item {
-  height: 400px;
+  padding-top: 100px;
+  height: 850px;
   overflow: hidden;
   text-align: center;
-  background: #4d87e2;
 }
+
 .gallery .controls {
-  position: absolute;
-  bottom: -120px;
+  bottom: -1200px;
   width: 100%;
   text-align: center;
 }
 
 .gallery .controls img {
   border: 5px solid #000;
+  height: 200px;
+  width: 150px;
 }
 
 .gallery .control-button {
@@ -45,8 +91,17 @@
   transition: color .1s;
 }
 
-
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+.gallery #pantone img, 
+.gallery #AID img,
+.gallery #movie img {
+  max-height: 800px;
+  border: 1px solid #414042;
 }
+
+.gallery #Geo img,
+.gallery #Ties img {
+  max-height: 400px;
+  margin-top: 200px;
+  
+}
+/* Show Grid */

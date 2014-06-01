@@ -8,69 +8,80 @@
  
   <link rel="stylesheet" href="css/normalize.css">				
   <link rel="stylesheet" href="css/gallery.css">	 
-  <link rel="stylesheet" href="css/styles.css">	
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>	
 	
 </head>
 <body>
 	
-	<div class="container showgrid">
+	<div class="container">
 		
 		<!-- Your Content -->
-		<div class="gallery items-5">
-
-			  <!-- Containers for Images -->
-			  <div id="item-1" class="control-operator"></div>
-			  <div id="item-2" class="control-operator"></div>
-			  <div id="item-3" class="control-operator"></div>
-			  <div id="item-4" class="control-operator"></div>
-			  <div id="item-5" class="control-operator"></div>
-
-			  <!-- Images that fade in out & restacked with z-index -->
-			  <figure class="item">
-			    <img src="img/1.jpg" alt="">
-			  </figure>
-
-			  <figure class="item">
-			    <img src="img/2.jpg" alt="">
-			  </figure>
-
-			  <figure class="item">
-			    <img src="img/3.jpg" alt="">
-			  </figure>
-
-			  <figure class="item">
-			    <img src="img/4.jpg" alt="">
-			  </figure>
-
-			  <figure class="item">
-			    <img src="http://placehold.it/960x400" alt="">
-			  </figure>
-
-			  <!-- Jump Links to each image -->
-			  <div class="controls">
-			    <a href="#item-1" class="control-button">
-			    	<img src="img/1-thumb.jpg" alt="">
-			    </a>
-			    <a href="#item-2" class="control-button">
-			    	<img src="img/2-thumb.jpg" alt="">
-			    </a>
-			    <a href="#item-3" class="control-button">
-					<img src="img/3-thumb.jpg" alt="">
-			    </a>
-			    <a href="#item-4" class="control-button">
-					<img src="img/4-thumb.jpg" alt="">
-			    </a>
-			      <a href="#item-5" class="control-button">
-					<img src="http://placehold.it/100x100" alt="">
-			    </a>
-			  </div>
+			<div class="topbox">
+				<nav>
+					<ul>
+						<li id="master"><a href="#">Home &#183;</a></li>
+						<li id="about"><a href="#">Bio &#183;</a></li>
+						<li id="work"><a href="#">Portfolio &#183;</a></li>
+						<li id="history"><a href="#">Resume</a></li>
+					</ul>
+				</nav>
 			</div>
+
+			<div class="gallery items-5">
+
+				  <!-- Containers for Images -->
+				  <div id="item-1" class="control-operator"></div>
+				  <div id="item-2" class="control-operator"></div>
+				  <div id="item-3" class="control-operator"></div>
+				  <div id="item-4" class="control-operator"></div>
+				  <div id="item-5" class="control-operator"></div>
+
+				  <!-- Images that fade in out & restacked with z-index -->
+				  <figure id="pantone" class="item">
+				    <img src="img/Pantone299C_Infographic.jpg">
+				  </figure>
+
+				  <figure  id="AID" class="item">
+				    <img src="img/AID_Poster_Ad.jpg">
+				  </figure>
+
+				  <figure  id="movie" class="item">
+				    <img src="img/movie.jpg">
+				  </figure>
+
+				  <figure  id="Geo" class="item">
+				    <img src="img/Geocell_Logo.jpg">
+				  </figure>
+
+				  <figure  id="Ties" class="item">
+				    <img src="img/Dye_Ties copy.jpg">
+				  </figure>
+
+				  <!-- Jump Links to each image -->
+				  <div class="controls">
+				    <a href="#item-1" class="control-button">
+				    	<img src="img/2-thumb.jpg">
+				    </a>
+				    <a href="#item-2" class="control-button">
+				    	<img src="img/2-thumb.jpg">
+				    </a>
+				    <a href="#item-3" class="control-button">
+						<img src="img/3-thumb.jpg">
+				    </a>
+				    <a href="#item-4" class="control-button">
+						<img src="img/4-thumb.jpg">
+				    </a>
+				      <a href="#item-5" class="control-button">
+						<img src="http://placehold.it/100x100">
+				    </a>
+				  </div>
+			</div>
+	</div>
 
 		<!-- Clearfix -->
 		<div class="clear"></div>
-
-	</div>
 	
-  
 </body>
 </html>
