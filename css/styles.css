@@ -77,16 +77,40 @@ nav {
 }
 
 .gallery .controls img {
-  border: 5px solid #000;
   height: 200px;
   width: 150px;
+  overflow: hidden;
+  margin: 10px;
 }
+
+h3, p {
+  color: #414042;
+  margin: 0;
+}
+
+h3 {
+  -webkit-transform: translateY(-18px);
+  transition: -webkit-transform .25s;
+}
+
+p {
+  -webkit-transform: translateY(0);
+  transition: -webkit-transform .25s;
+}
+
+.gallery .controls:hover h3{
+  -webkit-transform: translateY(0);
+  transition: -webkit-transform .25s;
+}
+
+.gallery .controls:hover p {
+  -webkit-transform: translateY(-60px);
+   transition: -webkit-transform .25s;
+}
+
 
 .gallery .control-button {
   display: inline-block;
-  margin: 0 .02em;
-  font-size: 3em;
-  text-align: center;
   text-decoration: none;
   transition: color .1s;
 }
