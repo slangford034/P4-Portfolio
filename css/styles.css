@@ -24,7 +24,7 @@ body, html {
 .topbox a {
   text-decoration: none;
   color: white;
-  margin-left: 4px;
+  margin-left: -30px;
 }
 
 .topbox a:hover {
@@ -45,8 +45,8 @@ nav {
   z-index: 9999;
 }
 
-#history {
-  margin-right: 35px;
+#master {
+  margin-left: 30px;
 }
 
 /* Gallery Stying */
@@ -60,9 +60,7 @@ nav {
   color: rgba(255, 255, 255, 0.8);
 }
 
-/*
-	Theme controls how everything looks in Gallery CSS.
-*/
+/* Theme controls how everything looks in Gallery CSS. */
 .gallery .item {
   padding-top: 100px;
   height: 850px;
@@ -79,47 +77,64 @@ nav {
 .gallery .controls img {
   height: 200px;
   width: 150px;
-  overflow: hidden;
-  margin: 10px;
+  margin-top: -39px;
 }
 
-h3, p {
-  color: #414042;
+a {
+  height: 200px;
+  width: 150px;
+  overflow: hidden;
+  margin: 40px;
+  border-radius: 5px;
+}
+
+.controls h3, 
+.controls p {
   margin: 0;
+  font-weight: normal;
+  font-size: 1em;
 }
 
 h3 {
-  -webkit-transform: translateY(-18px);
+  -webkit-transform: translateY(-40px);
   transition: -webkit-transform .25s;
+  color: white;
+  background: #414042;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 
 p {
   -webkit-transform: translateY(0);
   transition: -webkit-transform .25s;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  color: white;
+  background: #00a1e0
 }
 
-.gallery .controls:hover h3{
+.controls a:hover h3 {
   -webkit-transform: translateY(0);
   transition: -webkit-transform .25s;
 }
 
-.gallery .controls:hover p {
-  -webkit-transform: translateY(-60px);
+.controls a:hover p {
+  -webkit-transform: translateY(-70px);
    transition: -webkit-transform .25s;
 }
-
 
 .gallery .control-button {
   display: inline-block;
   text-decoration: none;
   transition: color .1s;
+  border: 1px solid #e1e1e1;
 }
 
 .gallery #pantone img, 
 .gallery #AID img,
 .gallery #movie img {
   max-height: 800px;
-  border: 1px solid #414042;
+  border: 1px solid #e1e1e1;
 }
 
 .gallery #Geo img,
@@ -128,4 +143,5 @@ p {
   margin-top: 200px;
   
 }
-/* Show Grid */
+
+/* Responsive Styling */
