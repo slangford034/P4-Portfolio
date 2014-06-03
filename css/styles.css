@@ -3,6 +3,8 @@ body {
   background: url('../img/subtle_dots.png') repeat;
   font-family: 'Montserrat', sans-serif;
   text-align: justify;
+  color: #414042;
+  font-size: 1em;
 }
 
 body, html {
@@ -24,7 +26,6 @@ body, html {
 .topbox a {
   text-decoration: none;
   color: white;
-  margin-left: -30px;
 }
 
 .topbox a:hover {
@@ -46,7 +47,24 @@ nav {
 }
 
 #master {
-  margin-left: 30px;
+  margin-left: -30px;
+}
+
+.grid_12 img {
+  display: block;
+  margin: 100px auto -80px 510px;
+  height: 200px;
+  width: 200px;
+  background: red;
+}
+
+.grid_12 p {
+  text-align: center;
+  margin-left: 212px;
+}
+
+#paragraph {
+  margin-top: 100px;
 }
 
 /* Gallery Stying */
@@ -80,18 +98,17 @@ nav {
   margin-top: -39px;
 }
 
-a {
+.gallery .controls a {
   height: 200px;
   width: 150px;
   overflow: hidden;
-  margin: 40px;
+  margin:  5px 40px 0 40px;
   border-radius: 5px;
 }
 
 .controls h3, 
 .controls p {
   margin: 0;
-  font-weight: normal;
   font-size: 1em;
 }
 
@@ -104,7 +121,7 @@ h3 {
   padding-bottom: 5px;
 }
 
-p {
+.gallery .controls p {
   -webkit-transform: translateY(0);
   transition: -webkit-transform .25s;
   padding-top: 5px;
