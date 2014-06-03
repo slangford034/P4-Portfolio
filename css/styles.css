@@ -55,7 +55,6 @@ nav {
   margin: 100px auto -80px 510px;
   height: 200px;
   width: 200px;
-  background: red;
 }
 
 .grid_12 p {
@@ -65,6 +64,11 @@ nav {
 
 #paragraph {
   margin-top: 100px;
+}
+
+hr {
+  width: 450px;
+  color: #e1e1e1;
 }
 
 /* Gallery Stying */
@@ -80,7 +84,7 @@ nav {
 
 /* Theme controls how everything looks in Gallery CSS. */
 .gallery .item {
-  padding-top: 100px;
+  padding-top: 35px;
   height: 850px;
   overflow: hidden;
   text-align: center;
