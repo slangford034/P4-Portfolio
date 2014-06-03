@@ -18,7 +18,7 @@ body, html {
 }
 
 .topbox li {
-  font-size: 20px;
+  font-size: 1.25em;
   letter-spacing: 2px;
   display: inline-block;
 }
@@ -80,7 +80,7 @@ hr {
 
 .portfolio {
   margin-right: 45px;
-  font-size: 20px;
+  font-size: 1.25em;
   list-style: none;
   text-align: center;
 }
@@ -123,7 +123,7 @@ hr {
 .gallery .controls img {
   height: 200px;
   width: 150px;
-  margin-top: -39px;
+  margin-top: -40px;
 }
 
 .gallery .controls a {
