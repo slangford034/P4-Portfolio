@@ -18,7 +18,7 @@ body, html {
 }
 
 .topbox li {
-  font-size: 28px;
+  font-size: 20px;
   letter-spacing: 2px;
   display: inline-block;
 }
@@ -52,7 +52,7 @@ nav {
 
 .grid_12 img {
   display: block;
-  margin: 100px auto -80px 510px;
+  margin: 70px auto -100px 510px;
   height: 200px;
   width: 200px;
 }
@@ -69,6 +69,31 @@ nav {
 hr {
   width: 500px;
   border: 1px solid #e1e1e1;
+  margin-left: 348px;
+}
+
+.footer {
+  background: #e1e1e1;
+  padding: 50px;
+  height: 230px;
+  margin-top: 80px;
+}
+
+.portfolio {
+  margin-right: 45px;
+  font-size: 20px;
+  list-style: none;
+  text-align: center;
+}
+
+.portfolio li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #414042;
+}
+
+.portfolio li a:hover {
+  color: #00a1e0;
 }
 
 /* Gallery Stying */
@@ -106,7 +131,7 @@ hr {
   height: 200px;
   width: 150px;
   overflow: hidden;
-  margin:  5px 40px 0 40px;
+  margin:  25px 40px 0 40px;
   border-radius: 5px;
 }
 
@@ -131,7 +156,7 @@ h3 {
   padding-top: 5px;
   padding-bottom: 30px;
   color: white;
-  background: #00a1e0
+  background: #414042;
 }
 
 .controls a:hover h3 {
