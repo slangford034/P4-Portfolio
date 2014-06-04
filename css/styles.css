@@ -113,7 +113,6 @@ hr {
 
 /* Theme controls how everything looks in Gallery CSS. */
 .gallery .item {
-  padding-top: 4%;
   height: 85%;
   overflow: hidden;
   text-align: center;
@@ -122,7 +121,8 @@ hr {
 .gallery .controls {
   width: 100%;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 8%;
+  margin-bottom: 8%;
 }
 
 .gallery .controls img {
@@ -187,6 +187,15 @@ h3 {
   border: 1px solid #e1e1e1;
 }
 
+.gallery #pantone img {
+  margin-top: 6%;
+}
+
+.gallery #AID img,
+.gallery #movie img {
+  margin-top: 3%;
+}
+
 .gallery #Geo img,
 .gallery #Ties img {
   max-height: 400px;
@@ -203,11 +212,16 @@ h3 {
 
 /* Responsive Styling */
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 1000px) {
 
-  body {
-    background: red;
+  .gallery #AID,
+  .gallery #movie {
+    margin-top: 349px;
   }
+
+}
+
+@media screen and (max-width: 580px) {
 
   .grid_12 img {
     margin: 15% auto -10% 41%;
