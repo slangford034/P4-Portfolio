@@ -128,7 +128,7 @@ hr {
 .gallery .controls img {
   height: 200px;
   width: 150px;
-  margin-top: -40px;
+  margin-top: -39px;
 }
 
 .gallery .controls a {
@@ -194,6 +194,13 @@ h3 {
   
 }
 
+.gallery #AID,
+.gallery #movie,
+.gallery #Geo,
+.gallery #Ties {
+  margin-top: 412px;
+}
+
 /* Responsive Styling */
 
 @media screen and (max-width: 580px) {
@@ -206,17 +213,35 @@ h3 {
     margin: 15% auto -10% 41%;
   }
 
+  .gallery .item {
+    max-height: 60%;
+    max-width: 100%;
+  }
+
   .gallery #AID img,
   .gallery #movie img {
     max-width: 89.667%;
   }
 
   .gallery #pantone img {
-    max-height: 27.667%
+    max-height: 19.667%
   }
 
-  .gallery .item {
-    height: 56%;
+  .gallery #AID,
+  .gallery #movie,
+  .gallery #Geo,
+  .gallery #Ties {
+    margin-top: 246px;
+  }
+
+  .gallery #Geo img,
+  .gallery #Ties img {
+    max-height: 35.996%;
+    margin-top: 34.483%;
+  }
+
+  .container {
+    height: 220%;
   }
 
 }

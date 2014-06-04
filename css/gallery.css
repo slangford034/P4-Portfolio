@@ -22,13 +22,6 @@
   transition: opacity .5s;
 }
 
-.gallery #AID,
-.gallery #movie,
-.gallery #Geo,
-.gallery #Ties {
-  margin-top: 412px;
-}
-
 .gallery .control-operator {
   display: none;
 }
