@@ -216,10 +216,23 @@ h3 {
 
   .gallery #AID,
   .gallery #movie {
-    margin-top: 349px;
+    margin-top: 350px;
+    height: 147%;
   }
 
-}
+  .gallery .controls {
+    margin-top: 50%;
+  }
+
+  body {
+    background: none;
+  }
+
+  .container {
+    height: 3000px;
+  }
+
+
 
 @media screen and (max-width: 580px) {
 
@@ -233,8 +246,9 @@ h3 {
   }
 
   .gallery #AID img,
-  .gallery #movie img {
-    max-width: 89.667%;
+  .gallery #movie img {;
+    max-height: 50%;
+    margin-top: 40%;
   }
 
   .gallery #pantone img {
@@ -245,7 +259,7 @@ h3 {
   .gallery #movie,
   .gallery #Geo,
   .gallery #Ties {
-    margin-top: 246px;
+    margin-top: 50%;
   }
 
   .gallery #Geo img,
@@ -255,7 +269,11 @@ h3 {
   }
 
   .container {
-    height: 220%;
+    height: 2500px;
+  }
+
+  body {
+    background: none;
   }
 
 }
